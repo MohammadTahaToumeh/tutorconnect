@@ -1,0 +1,25 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Backend
+backend/vendor/
+backend/.env
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Editor und Windows
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Backup files
+*.backup*
+*.bak
+*.old
+backend/database/import_existing_data.sql
